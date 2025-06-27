@@ -20,9 +20,9 @@
         default_layer {
             label = "default";
             bindings = <
-&none  &kp W  &none  &none
-&kp A  &kp S  &kp D  &none
-                     &mo 1  &mo 2
+&kp C  &kp W  &kp T  &kp N6
+&kp A  &kp S  &kp D  &kp F
+                     &mo 1   &mo 2
             >;
         };
 
