@@ -20,18 +20,18 @@
         default_layer {
             label = "default";
             bindings = <
-&kp C  &kp W  &kp T  &kp N6
-&kp A  &kp S  &kp D  &kp F
-                     &mo 1   &mo 2
+&kp C    &kp Z   &kp X         &kp C
+&kp ESC  &kp N1  &kp NUMBER_2  &kp N3
+                               &mo 1   &kp ENTER
             >;
         };
 
         lower_layer {
             label = "lower";
             bindings = <
-&none  &none  &none  &none
-&none  &none  &none  &none
-                     &trans  &mo 3
+&bt BT_CLR_ALL  &none  &none  &none
+&none           &none  &none  &none
+                              &trans  &mo 3
             >;
         };
 
